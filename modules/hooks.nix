@@ -2246,6 +2246,17 @@ in
           entry = "${hooks.commitizen.package}/bin/cz check --allow-abort --commit-msg-file";
           stages = [ "commit-msg" ];
         };
+      commitlint =
+        {
+          name = "commitlint";
+          description = ''
+            Check whether the current commit message follow committing rules.
+          '';
+          package = tools.commitlint;
+          entry = "${hooks.commitizen.package}/bin/cz check --allow-abort --commit-msg-file";
+          stages = [ "commit-msg" ];
+
+        };
       conform = {
         name = "conform enforce";
         description = "Policy enforcement for commits.";

@@ -168,7 +168,7 @@ in
   # TODO: these two should be statically compiled
   inherit (haskellPackages) fourmolu;
   inherit (luaPackages) luacheck;
-  inherit (nodePackages) eslint markdownlint-cli prettier cspell;
+  inherit (nodePackages) eslint markdownlint-cli prettier cspell commitlint;
   inherit (ocamlPackages) ocp-indent;
   inherit (python3Packages) autoflake black flake8 flynt isort mkdocs-linkcheck mypy pre-commit-hooks pylint pyupgrade;
   inherit (php82Packages) php-cs-fixer psalm;

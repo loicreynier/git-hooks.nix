@@ -345,6 +345,7 @@ clang-format supports.
 - [annex](https://git-annex.branchable.com/)
 - [check-merge-conflicts](https://github.com/pre-commit/pre-commit-hooks/blob/main/pre_commit_hooks/check_merge_conflict.py)
 - [commitizen](https://github.com/commitizen-tools/commitizen)
+- [commitlint](https://commitlint.js.org)
 - [convco](https://github.com/convco/convco)
 - [forbid-new-submodules](https://github.com/pre-commit/pre-commit-hooks/blob/main/pre_commit_hooks/forbid_new_submodules.py)
 - [gptcommit](https://github.com/zurawiki/gptcommit)
